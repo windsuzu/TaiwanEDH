@@ -9,9 +9,9 @@
 -->
 
 <!-- [![Issues][issues-shield]][issues-url] -->
+<!-- [![PR Welcome][pr-welcome-shield]](#contributing) -->
 [![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
-[![PR Welcome][pr-welcome-shield]](#contributing)
 [![Author][author-shield]][author-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -57,16 +57,19 @@
 <tr>
 <td>
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+在 TaiwanEDH 專案中，我們實作了 HTML 5 的架構，還有 CSS 3 的應用。值得一提的實作部分有：
 
-<summary>Built With</summary>
-<br>
+- 設定 `BorderBox` 將內距 (padding) 往元素內推
+- 設計 Navigation Bar `<nav>` 的 HTML 架構、 CSS 、 hover 動畫、 active 設定
+- 設計 Flex Layout
+- 使用 Google Fonts 的字體 
+- 使用 Taiwan-font 提供的 Icon 
+- 使用 Google Map iframe 顯示台灣地圖 
+- 使用 Google Chart 顯示圖表
 
+Built With
 * HTML 5
 * CSS 3
-
-</details>
-
 
 </td>
 </tr>
@@ -76,7 +79,11 @@ There are many great README templates available on GitHub, however, I didn't fin
 
 ## Preview
 
-To get a local copy up and running follow these simple steps.
+<img src="images/demo/index.png" width=48%>
+<img src="images/demo/agriculture.png" width=48%>
+<img src="images/demo/industry.png" width=48%> 
+<img src="images/demo/economy.png" width=48%> 
+<img src="images/demo/author.png" width=48%>
 
 ---
 ## License
@@ -100,7 +107,7 @@ Reach out to the maintainer at one of the following places:
 [issues-shield]: https://img.shields.io/github/issues/windsuzu/TaiwanEDH.svg?style=for-the-badge
 [issues-url]: https://github.com/windsuzu/TaiwanEDH/issues
 [license-shield]: https://img.shields.io/github/license/windsuzu/TaiwanEDH.svg?style=for-the-badge&label=license
-[license-url]: https://github.com/windsuzu/TaiwanEDH/blob/main/LICENSE.txt
+[license-url]: https://github.com/windsuzu/TaiwanEDH/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/windsuzu
 [pr-welcome-shield]: https://shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge
