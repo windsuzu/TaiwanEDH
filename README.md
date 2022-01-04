@@ -79,11 +79,13 @@ Built With
 
 ## Preview
 
-<img src="images/demo/index.png" width=48%>
-<img src="images/demo/agriculture.png" width=48%>
-<img src="images/demo/industry.png" width=48%> 
-<img src="images/demo/economy.png" width=48%> 
-<img src="images/demo/author.png" width=48%>
+<p float="left">
+  <img src="images/demo/index.png" width=48%>
+  <img src="images/demo/agriculture.png" width=48%>
+  <img src="images/demo/industry.png" width=48%> 
+  <img src="images/demo/economy.png" width=48%> 
+  <img src="images/demo/author.png" width=48%>
+</p>
 
 ---
 ## License
