@@ -42,6 +42,8 @@
 
 * [About](#about)
 * [Preview](#preview)
+  * [Desktop](#desktop)
+  * [Smart Phone](#smart-phone)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -80,6 +82,8 @@ Built With
 
 ## Preview
 
+### Desktop
+
 <p float="left">
   <img src="images/demo/index.png" width=48%>
   <img src="images/demo/agriculture.png" width=48%>
@@ -87,6 +91,17 @@ Built With
   <img src="images/demo/economy.png" width=48%> 
   <img src="images/demo/author.png" width=48%>
 </p>
+
+### Smart Phone
+
+<p float="left">
+  <img src="images/phone/1.png" width=32%>
+  <img src="images/phone/2.png" width=32%>
+  <img src="images/phone/3.png" width=32%> 
+  <img src="images/phone/4.png" width=32%> 
+  <img src="images/phone/5.png" width=32%>
+</p>
+
 
 ---
 ## License
