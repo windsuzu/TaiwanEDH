@@ -62,8 +62,8 @@ nav ul li a:hover {
 }
 
 main {
-  width: 100%;
   display: flex;
+  flex-flow: row wrap;
 }
 
 section {
@@ -71,28 +71,9 @@ section {
 }
 
 section.left {
-  flex-grow: 7;
+  width: 100vw;
+  flex: 4 1 550px;
   padding: 1rem;
-}
-
-section.right {
-  flex-grow: 3;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-}
-
-section.right h4 {
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
-section.right p {
-  padding: 1.5rem 0;
-}
-
-section.right iframe {
-  border-radius: 30px;
 }
 
 section.left ol,
@@ -109,6 +90,26 @@ section.left img {
 section.left a {
   color: rgb(22, 168, 120);
   text-decoration: none;
+}
+
+section.right {
+  flex: 1 1 200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+section.right h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+section.right p {
+  padding: 1.5rem 0;
+}
+
+section.right iframe {
+  border-radius: 30px;
 }
 
 p.formula {
@@ -143,4 +144,16 @@ div.avatar {
 .info p,
 ul {
   padding: 0.75rem 0;
+}
+
+#curve_chart {
+  margin-top: 24px;
+  width: 80%;
+  height: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  #curve_chart {
+    height: 40%;
+  }
 }
