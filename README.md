@@ -66,6 +66,7 @@
 - 使用 Taiwan-font 提供的 Icon 
 - 使用 Google Map iframe 顯示台灣地圖 
 - 使用 Google Chart 顯示圖表
+- 使用 Flex, Media Query 等技術實作響應式 (RWD) 設計  
 
 Built With
 * HTML 5
