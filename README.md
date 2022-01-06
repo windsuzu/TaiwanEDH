@@ -118,7 +118,7 @@ Reach out to the maintainer at one of the following places:
 ## Acknowledgements
 
 * [Wilson Ren](https://www.udemy.com/user/wilson-r-6/)
-
+* [TW Icon Fonts](https://www.twicon.page/index.html)
 
 [contributors-shield]: https://img.shields.io/github/contributors/windsuzu/TaiwanEDH.svg?style=for-the-badge
 [contributors-url]: https://github.com/windsuzu/TaiwanEDH/graphs/contributors
