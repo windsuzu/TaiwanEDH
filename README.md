@@ -61,14 +61,27 @@
 
 在 TaiwanEDH 專案中，我們實作了 HTML 5 的架構，還有 CSS 3 的應用。值得一提的實作部分有：
 
-- 設定 `BorderBox` 將內距 (padding) 往元素內推
-- 設計 Navigation Bar `<nav>` 的 HTML 架構、 CSS 、 hover 動畫、 active 設定
-- 設計 Flex Layout
-- 使用 Google Fonts 的字體 
-- 使用 Taiwan-font 提供的 Icon 
-- 使用 Google Map iframe 顯示台灣地圖 
+- [設定 `BorderBox` 將內距 (padding) 往元素內推](https://github.com/windsuzu/TaiwanEDH/blob/main/styles/style.css#L4)
+- 設計 Navigation Bar `<nav>` 架構、 
+  - [HTML](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L63-L89)
+  - [CSS, hover animation, active](https://github.com/windsuzu/TaiwanEDH/blob/main/styles/style.css#L34-L61)
+- 使用 Google Fonts 的字體
+  - [HTML Import](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L12-L17)
+  - [CSS](https://github.com/windsuzu/TaiwanEDH/blob/main/styles/style.css#L5)
+- 使用 Taiwan-font 提供的 Icon
+  - [HTML Import](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L8)
+  - [HTML](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L59)
+- [使用 Google Map iframe 顯示台灣地圖](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L114-L121)
 - 使用 Google Chart 顯示圖表
+  - [JavaScript](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L18-L54)
+  - [HTML](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L107)
+  - [CSS](https://github.com/windsuzu/TaiwanEDH/blob/main/styles/style.css#L159-L169)
 - 使用 Flex, Media Query 等技術實作響應式 (RWD) 設計  
+  - Flex
+    - [HTML](https://github.com/windsuzu/TaiwanEDH/blob/main/index.html#L91-L123)
+    - [CSS](https://github.com/windsuzu/TaiwanEDH/blob/main/styles/style.css#L63-L115)
+  - Media Query
+    - [CSS](https://github.com/windsuzu/TaiwanEDH/blob/main/styles/style.css#L165-L176)
 
 Built With
 * HTML 5
